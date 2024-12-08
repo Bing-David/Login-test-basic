@@ -23,10 +23,14 @@ function autenticarUsuario(datos) {
 
 
 
-
+//CONFIGURACION DE NOTIFICACIONES...
 function Notificacion(mensaje) {
+//se crea un elemento "div" en el dom cada que se llama esta funcion y se estiliza
+// con los siguientes parametros, ademas toma el mensaje como parametro para mostrarlo.
+
     let notifiacion = document.getElementById('notificacion');
     if (!notifiacion) {
+        //diseño
         notifiacion = document.createElement('div');
         notifiacion.id = 'notificacion';
         notifiacion.style.position = 'fixed';
@@ -39,7 +43,8 @@ function Notificacion(mensaje) {
         document.body.appendChild(notifiacion);
     }
 
-    const txtNotifiacion = document.createElement('div');
+    const txtNotifiacion = document.createElement('div'); 
+    //diseño
     txtNotifiacion.textContent = mensaje;
     txtNotifiacion.style.padding = '15px';
     txtNotifiacion.style.backgroundColor = '#39A900';
@@ -64,5 +69,5 @@ function Notificacion(mensaje) {
         txtNotifiacion.addEventListener('transitionend', () => {
             txtNotifiacion.remove();
         });
-    }, 3000); //3s
+    }, 3000); //3ss
 }
