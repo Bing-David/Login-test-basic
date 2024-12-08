@@ -69,5 +69,5 @@ function Notificacion(mensaje) {
         txtNotifiacion.addEventListener('transitionend', () => {
             txtNotifiacion.remove();
         });
-    }, 3000); //3ss
+    }, 3000); //3s
 }
