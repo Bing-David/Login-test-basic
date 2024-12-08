@@ -1,0 +1,79 @@
+
+/*MAIN*/
+*{
+    font-family: "Kanit", serif;
+    margin: 0%;
+    padding: 0%;
+}.actividad{
+    letter-spacing: 5px;
+    color: #39A900;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2vw;
+}
+/*MAIN*/
+
+
+/*LOING STYLES*/
+
+.form{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.login-box{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #39A900;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px #1a1a1a;
+}.login-box p{
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #1a1a1a;
+}.login-box input{
+    border: none;
+    border-radius: 100px;
+    color: black;
+    text-align: center;
+    width: 200px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    width: 30vw;
+    text-decoration: none;
+    font-weight: 900;
+    outline:none;
+    border: #1a1a1a 2px solid;
+    padding: 15px;
+}.submit{
+    margin-top: 2%;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 900;
+    cursor: pointer;
+}.submit:hover{
+    color: #39A900;
+    transition: 0.2s;
+}
+
+/*LOING STYLES*/
+
+.footer{
+    padding-top: 2%;
+    font-weight: 900;
+    letter-spacing: 20px;
+    text-align: center;
+}.footer p:hover{
+    transition: 0.2s;
+    color: #39A900;
+    cursor: pointer;
+}

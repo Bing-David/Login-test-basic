@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap');
+    </style>
+    <title>LOGIN</title>
+</head>
+<body>
+
+    <div class="msg">
+        <h1>LOGIN EXITOSO</h1>
+        <button class="salir" type="button">SALIR</button>
+    </div>
+</body>
+
+    <style>
+        .msg{
+            text-align: center;
+            justify-content: center;
+        }
+
+        button{
+            border: none;
+            padding: 15px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: #000000;
+            color: #39A900;
+            letter-spacing: 10px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        body{
+            background-color: #39A900;
+        }
+        h1{
+            text-align: center;
+            padding-top: 10%;
+            letter-spacing: 5px;
+            font-size: 95px;
+            font-family: "Kanit", serif;
+            color:white;
+        }
+
+    </style>
+
+
+    <script>
+        let salir =document.querySelector(".salir").addEventListener("click",()=>{
+            window.open("./index.html")
+            window.close()
+        })
+    </script>
+</html>
